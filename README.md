@@ -28,5 +28,21 @@ A console-based banking application developed in C that allows users to perform 
 ## How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/banking-management-system.git
+   git clone https://github.com/NSMR21/Banking-Management-System.git
+
+2. Navigate to the project directory:
+   cd Banking-Management-System
+
+3. Compile the program:
+   gcc BankManagementSystem.c -o bank
+
+4. Run the program:
+   ./bank
+
+
+## Required Files
+
+Make sure the following files are present in the same directory:
+
+accounts.txt → stores account details
+transactions.txt → stores transaction records
